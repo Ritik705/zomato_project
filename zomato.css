@@ -1,0 +1,137 @@
+
+body{ 
+  margin:0px;
+  padding:0px; 
+  width:100vw;
+  height:100vh;
+  background-color: rgb(69, 67, 64);
+
+}
+#root
+{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:20px;
+  justify-content: center;
+  align-items: center;
+}
+.header{   
+  width:100vw;
+  height: 150px;
+   background-color:rgb(21, 7, 7);
+   padding-top:10px;
+}
+.zomato{
+color:red;
+font-size: xxx-large;
+font-weight:bold;
+padding-left:20px;
+}
+.buttonsdiv{
+  display:flex;
+  justify-content: center;
+   align-items: center;
+}
+
+button{ border:px;
+  border-radius:2px;
+  background-color: rgb(25, 101, 25);
+  margin:20px;
+  color:rgb(189, 179, 179);
+  width:100px;
+  height:35px;
+  
+}
+button:hover{
+  background-color: black;
+}
+.card{
+  width: 300px;
+  height:300px;
+  background-color: rgb(226, 227, 227);
+  margin: 20px;
+  border-radius: 15px;
+  padding:10px;
+  border: 8px solid rgb(69, 67, 64);
+  transition: transform 0.3s;
+   
+}
+.divforimg
+{
+  width:100%;
+  height:65%;
+  border-radius:10px;
+}
+.imgstyle{
+  width:100%;
+  height:100%;
+  border-radius:10px;
+}
+.cardcont{width:100%;
+  height:30%;
+  padding:4px;
+}
+.cardhead
+{  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   width:100%;
+  height:33px;
+
+}
+.resname,.location,.foodtype{
+  display: inline;
+}
+.rat{
+  background-color: rgb(24, 130, 24);
+  padding:2px;
+  border-radius:3px;
+  color: azure;
+}
+.card:hover
+{
+  border-color: rgb(226, 227, 227);
+  transform: translatey(-10px);
+}
+#form{ 
+  position:fixed;
+   top:25%;
+  left: 40%;
+  width:300px;
+  background-color: azure;
+  padding:20px;
+  border-radius:10px;
+  z-index:1;
+}
+label{  
+  font-size:large;
+  font-weight: bold;
+}
+.filterpopup
+{
+ display: none;
+}
+.offer{
+  background-color: rgba(154, 205, 50,.7);
+  width:40%;
+  position: relative;
+  bottom:30px;
+  left:5px;
+  border-radius:3px;
+  color:rgb(22, 1, 1);
+  font-weight: bold;
+  padding-left:3px;
+  
+}
+.foot{
+  background-color:rgb(43, 49, 72);;
+  height:50px;
+  color: white;
+  font-size: x-large;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+
+
+

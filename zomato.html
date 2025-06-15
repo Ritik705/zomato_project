@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./zomato.css">
+</head>
+<body>
+      <div class="header">
+        <div class="zomato">Zomato</div>
+
+        <div class="buttonsdiv">
+        <button id="filter">Filter</button>
+        <button id="offer">Offers</button>
+        <button id="rating">Rating 4.5+</button>
+        <button id="alco">Serves Alcohol</button>
+        </div>
+
+      </div>
+      
+      <!--filter form-->
+      <div class="filterpopup"id="form">
+                <h1>Choose Filter</h1>
+               <input type="radio" name="filters"id="first"value="sortbyrating">  
+               <label for="first">sort by rating</label>
+               <br><br>
+
+                 <input type="radio" name="filters"id="sec"value="high_to_low">  
+                 <label for="sec">price:high to low</label>
+                 <br><br>
+
+                 <input type="radio" name="filters"id="third"value="low_to_high">  
+                  <label for="third">price:low to high</label>
+                 <br><br>
+
+         <button id="apply">Apply</button>
+         <button id="closebutton">Close</button>
+     </div>
+  
+  <div ><h1 style="color: blanchedalmond;">Best Food In Delhi NCR </h1></div>
+  <!--insert all the cards here-->
+   <div id="root"></div> 
+   <div class="foot"> All trademarks are properties of their respective owners © Zomato™ Ltd. All rights are reserved.</div>
+    <script src="./zomato.js"></script>
+</body>
+</html>
