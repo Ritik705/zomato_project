@@ -28,7 +28,7 @@ The interface allows users to browse restaurants with features like **filtering 
 
 ## code of project
 
-![zomato_repositary]() <!-- Replace with actual screenshot -->
+![zomato_repositary](https://github.com/Ritik705/zomato_project) 
 
 
 ##  Tech Stack
